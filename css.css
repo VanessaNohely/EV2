@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+form {
+    width: 320px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 125px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 155px;
+    box-sizing: border-box;
+    margin-bottom: 15px; /* Asegura separación uniforme entre los inputs */
+    padding: 4px;        /* Da un poco de espacio interno al escribir */
+}
+
+button {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+}

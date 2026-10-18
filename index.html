@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de sueldo</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <h1>Cálculo del sueldo de un trabajador</h1>
+
+    <form>
+        <label for="turno">Turno:</label>
+        <input type="text" name="turno" id="turno"><br>
+
+        <label for="horas">Horas trabajadas:</label>
+        <input type="text" name="horas" id="horas"><br>
+
+        <label for="pago">Pago por hora:</label>
+        <input type="text" name="pago" id="pago" value="70"><br>
+
+        <label for="sueldo">Sueldo:</label>
+        <input type="text" name="sueldo" id="sueldo" readonly><br>
+
+        <button type="button" id="calcular">Calcular</button>
+        <button type="button" id="limpiar">Limpiar</button>
+    </form>
+
+    <script src="practica1.js"></script>
+</body>
+</html>
